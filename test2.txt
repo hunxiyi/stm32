@@ -1,0 +1,103 @@
+
+%TPVGA% = TPLCDVGA.Install, Monitor\IBM0A2E ; TFT, 640x480
+%TPVGA%     = TPLCDVGA.Install,     Monitor\IBM0A41   ; HPA, 640x480
+%TPSVGA%    = TPLCDSVGA.Install,    Monitor\IBM0A4B   ; TFT, 800x600
+%TPSVGA%    = TPLCDSVGA.Install,    Monitor\IBM0A50   ; HPA, 800x600
+%TPXGA%     = TPLCDXGA.Install,     Monitor\IBM0A55   ; TFT, 1024x768 
+%TPXGA%     = TPLCDXGA.Install,     Monitor\IBM254A   ; HPA, 1024x768 
+%TPSXGA%    = TPLCDSXGA.Install,    Monitor\IBM254C   ; TFT, 1280x1024
+%TPSXGAP%   = TPLCDSXGAP.Install,   Monitor\IBM254D   ; TFT, 1400x1050 
+%TPSXGAPF%  = TPLCDSXGAPF.Install,  Monitor\IBM1A5E   ; Wide Viewing, 1400x1050                  F
+%TPUXGA%    = TPLCDUXGA.Install,    Monitor\IBM0A54   ; TFT, 1600x1200
+%TPUXGAF%   = TPLCDUXGAF.Install,   Monitor\IBM1A5D   ; Wide Viewing, 1600x1200                  F
+%TPQXGA%    = TPLCDQXGA.Install,    Monitor\IBM0A5C   ; TFT, 2048x1536
+%TPQXGAF%   = TPLCDQXGAF.Install,   Monitor\IBM1A5C   ; Wide Viewing, 2048x1536                  F
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\IBM2373   ; WideXGA, 1280x800
+%TPWXGAH%   = TPLCDWXGAH.Install,   Monitor\IBM2374   ; WideXGA, High Brightness, 1280x800       H
+%TPWXGA1%   = TPLCDWXGA1.Install,   Monitor\IBM2375   ; WideXGA, 1280x768
+%TPWXGA1H%  = TPLCDWXGA1H.Install,  Monitor\IBM2376   ; WideXGA, High Brightness, 1280x768       H
+%TPWSXGAP%  = TPLCDWSXGAP.Install,  Monitor\IBM2887   ; WideSXGA+, 1680x1050
+%TPWSXGAPH% = TPLCDWSXGAPH.Install, Monitor\IBM2888   ; WideSXGA+, High Brightness, 1680x1050    H
+%TPWUXGA%   = TPLCDWUXGA.Install,   Monitor\IBM2371   ; WideUXGA, 1920x1200
+%TPWUXGAH%  = TPLCDWUXGAH.Install,  Monitor\IBM2372   ; WideUXGA, High Brightness, 1920x1200     H
+
+%TPWXGA1%   = TPLCDWXGA1.Install,   Monitor\LEN4080   ; 10.6" WideXGA   LED B/L      1280x768
+
+%TPXGA%     = TPLCDXGA.Install,     Monitor\LEN4000   ; 12"   XGA       TFT          1024x768
+%TPXGA%     = TPLCDXGA.Install,     Monitor\LEN4001   ; 12"   XGA       HPA          1024x768
+%TPXGAF%    = TPLCDXGAF.Install,    Monitor\LEN4002   ; 12"   XGA       IPS/FFS      1024x768    F
+
+%TPSXGAP%   = TPLCDSXGAP.Install,   Monitor\LEN4003   ; 12"   SXGA+     TFT          1400x1050
+%TPSXGAP%   = TPLCDSXGAP.Install,   Monitor\LEN4004   ; 12"   SXGA+     HPA          1400x1050
+%TPSXGAPF%  = TPLCDSXGAPF.Install,  Monitor\LEN4005   ; 12"   SXGA+     IPS/FFS      1400x1050   F
+
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4010   ; 12"   WideXGA   TFT          1280x800
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4011   ; 12"   WideXGA   LED B/L      1280x800
+%TPWXGAF%   = TPLCDWXGAF.Install,   Monitor\LEN4012   ; 12"   WideXGA   IPS/FFS      1280x800    F
+
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4013   ; 12"   WideXGA+  TFT          1440x900
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4014   ; 12"   WideXGA+  LED B/L      1440x900
+%TPWXGAPF%  = TPLCDWXGAPF.Install,  Monitor\LEN4015   ; 12"   WideXGA+  IPS/FFS      1440x900    F
+
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4070   ; 13"   WideXGA   TFT          1280x800
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4071   ; 13"   WideXGA   LED B/L      1280x800
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4072   ; 13"   WideXGA   HPA          1280x800
+
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4073   ; 13"   WideXGA+  TFT          1440x900
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4074   ; 13"   WideXGA+  LED B/L      1440x900
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4075   ; 13"   WideXGA+  HPA          1440x900
+
+%TPXGA%     = TPLCDXGA.Install,     Monitor\LEN4020   ; 14"   XGA       TFT          1024x768
+%TPXGA%     = TPLCDXGA.Install,     Monitor\LEN4021   ; 14"   XGA       HPA          1024x768
+
+%TPSXGAP%   = TPLCDSXGAP.Install,   Monitor\LEN4022   ; 14"   SXGA+     TFT          1400x1050
+%TPSXGAP%   = TPLCDSXGAP.Install,   Monitor\LEN4023   ; 14"   SXGA+     HPA          1400x1050
+
+%TPWXGA1%   = TPLCDWXGA1.Install,   Monitor\LEN4030   ; 14"   WideXGA   TFT          1280x768
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4031   ; 14"   WideXGA   TFT          1280x800
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4032   ; 14"   WideXGA   HPA          1280x800
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4035   ; 14"   WideXGA   LED B/L      1280x800
+
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4033   ; 14"   WideXGA+  TFT          1440x900
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4034   ; 14"   WideXGA+  HPA          1440x900
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4036   ; 14"   WideXGA+  LED B/L      1440x900
+
+%TPXGA%     = TPLCDXGA.Install,     Monitor\LEN4040   ; 15"   XGA       TFT          1024x768
+%TPXGA%     = TPLCDXGA.Install,     Monitor\LEN4041   ; 15"   XGA       HPA          1024x768
+
+%TPSXGAP%   = TPLCDSXGAP.Install,   Monitor\LEN4042   ; 15"   SXGA+     TFT          1400x1050
+%TPSXGAPF%  = TPLCDSXGAPF.Install,  Monitor\LEN4043   ; 15"   SXGA+     IPS          1400x1050   F
+%TPSXGAP%   = TPLCDSXGAP.Install,   Monitor\LEN4044   ; 15"   SXGA+     HPA          1400x1050
+
+%TPUXGA%    = TPLCDUXGA.Install,    Monitor\LEN4045   ; 15"   UXGA      TFT          1600x1200
+%TPUXGAF%   = TPLCDUXGAF.Install,   Monitor\LEN4046   ; 15"   UXGA      IPS          1600x1200   F
+%TPUXGA%    = TPLCDUXGA.Install,    Monitor\LEN4047   ; 15"   UXGA      HPA          1600x1200
+
+%TPQXGA%    = TPLCDQXGA.Install,    Monitor\LEN4048   ; 15"   QXGA      TFT          2048x1536
+%TPQXGAF%   = TPLCDQXGAF.Install,   Monitor\LEN4049   ; 15"   QXGA      IPS          2048x1536   F
+
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4050   ; 15.4" WideXGA   TFT          1280x800
+%TPWXGAH%   = TPLCDWXGAH.Install,   Monitor\LEN4051   ; 15.4" WideXGA   High Bright  1280x800    H
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4052   ; 15.4" WideXGA   HPA          1280x800
+%TPWXGA%    = TPLCDWXGA.Install,    Monitor\LEN4057   ; 15.4" WideXGA   LED B/L      1280x800
+
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4058   ; 15.4" WideXGA+  LED B/L      1440x900
+
+%TPWSXGAP%  = TPLCDWSXGAP.Install,  Monitor\LEN4053   ; 15.4" WideSXGA+ TFT          1680x1050
+%TPWSXGAP%  = TPLCDWSXGAP.Install,  Monitor\LEN4054   ; 15.4" WideSXGA+ HPA          1680x1050
+%TPWSXGAP%  = TPLCDWSXGAP.Install,  Monitor\LEN4059   ; 15.4" WideSXGA+ LED B/L      1680x1050
+
+%TPWUXGA%   = TPLCDWUXGA.Install,   Monitor\LEN4055   ; 15.4" WideUXGA  TFT          1920x1200
+%TPWUXGA%   = TPLCDWUXGA.Install,   Monitor\LEN4056   ; 15.4" WideUXGA  HPA          1920x1200
+
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4060   ; 17"   WideXGA+  TFT          1440x900
+%TPWXGAPH%  = TPLCDWXGAPH.Install,  Monitor\LEN4061   ; 17"   WideXGA+  High Bright  1440x900    H
+%TPWXGAP%   = TPLCDWXGAP.Install,   Monitor\LEN4062   ; 17"   WideXGA+  HPA          1440x900
+
+%TPWSXGAP%  = TPLCDWSXGAP.Install,  Monitor\LEN4063   ; 17"   WideSXGA+ TFT          1680x1050
+%TPWSXGAPH% = TPLCDWSXGAPH.Install, Monitor\LEN4064   ; 17"   WideSXGA+ High Bright  1680x1050   H
+%TPWSXGAP%  = TPLCDWSXGAP.Install,  Monitor\LEN4065   ; 17"   WideSXGA+ HPA          1680x1050
+
+%TPWUXGA%   = TPLCDWUXGA.Install,   Monitor\LEN4066   ; 17"   WideUXGA  TFT          1920x1200
+%TPWUXGAH%  = TPLCDWUXGAH.Install,  Monitor\LEN4067   ; 17"   WideUXGA  High Bright  1920x1200   H
+%TPWUXGA%   = TPLCDWUXGA.Install,   Monitor\LEN4068   ; 17"   WideUXGA  HPA          1920x1200
